@@ -1,0 +1,213 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+* a {
+  color: #fff;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 14px;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu {
+  width: 100%;
+  background-color: #053360;
+  font-weight: 300;
+  color: #fff;
+}
+
+.top-menu .left-side {
+  line-height: 33px;
+}
+
+.top-menu .left-side a {
+  color: #fff;
+}
+
+.top-menu .social-link {
+  margin: 0;
+  padding: 0;
+  float: right;
+  overflow: hidden;
+}
+
+.top-menu .social-link li {
+  float: left;
+  list-style: outside none none;
+}
+
+.top-menu .social-link li a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-left: 1px solid rgba(245, 245, 245, 0.3);
+  height: 35px;
+  line-height: 35px;
+  margin-left: 0;
+  text-align: center;
+  width: 35px;
+  display: block;
+  -webkit-transition: all 300ms ease 0s;
+  transition: all 300ms ease 0s;
+  color: #fff;
+}
+
+.top-menu .social-link .lastit {
+  border-right: 1px solid rgba(245, 245, 245, 0.3);
+}
+
+.top-menu .social-link .facebook {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.top-menu .social-link .facebook:hover {
+  background-color: #1814f3;
+}
+
+.top-menu .social-link .google {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.top-menu .social-link .google:hover {
+  background-color: #ff4931;
+}
+
+.top-menu .social-link .linkedin {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.top-menu .social-link .linkedin:hover {
+  background-color: #3535a3;
+}
+
+.top-menu .social-link .youtube {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.top-menu .social-link .youtube:hover {
+  background-color: #e90013;
+}
+
+.top-menu .social-link .instagram {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.top-menu .social-link .instagram:hover {
+  background-color: #e731ff;
+}
+
+.top-menu .social-link .twitter {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.top-menu .social-link .twitter:hover {
+  background-color: #3f8bfd;
+}
+
+.slider {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  -webkit-animation: animb 70s infinite;
+          animation: animb 70s infinite;
+  background: url("../images/slider-images/backgroung-drapeau.jpg");
+  position: relative;
+}
+
+.slider .slider_cach {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.527);
+}
+
+.slider .slider_cach h1 {
+  text-transform: uppercase;
+  font-family: 'Arvo', serif;
+  line-height: 75px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.slider .slider_cach .big {
+  font-family: 'Arvo', serif;
+  z-index: 5;
+  color: white;
+  text-decoration: none;
+  line-height: 75px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-size: 80px;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  text-transform: uppercase;
+  visibility: visible;
+}
+
+.slider .slider_cach .msk-btn {
+  border: none;
+  font-size: 20px;
+  border-radius: none;
+  padding: 15px 50px;
+  background-color: #e21717;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.slider .conte p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.colcate {
+  background-color: #053360;
+}
+
+.colcate h1 {
+  font-weight: 700;
+  color: #d6d6d6;
+}
+
+.colcate p {
+  color: #d6d6d6;
+  font-weight: bold;
+}
+
+@-webkit-keyframes animb {
+  50% {
+    background-position: center;
+  }
+}
+
+@keyframes animb {
+  50% {
+    background-position: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
